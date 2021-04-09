@@ -1,0 +1,185 @@
+body{
+    background: url("2014_maroc30.jpg") fixed no-repeat;
+   
+}
+#tous{
+     background-color:rgba(0, 0, 0, 0.5);
+     border-radius: 10px;
+     width: auto;
+     margin-right: 5px;
+     height: 630px;
+  
+}
+header{
+   display: flex;
+   justify-content: space-between;
+}
+header img{
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+}
+header ul{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 20px;
+  
+}
+header li{
+    margin-left: 20px;
+    
+}
+header a{
+     text-decoration: none;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     padding-bottom: 10px;
+
+}
+header  ul a:hover{
+    border-bottom: 3px goldenrod solid;
+    color:goldenrod;
+}
+.s1 h1,h3{
+    font-family: Bahnschrift,'Berlin Sans FB Demi','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: honeydew;
+    
+}
+.s1 h1{
+    font-size: 100px;
+    margin-bottom: 1px;
+    display: flex;
+    width: 800px;
+    justify-content:flex-end ;
+    /*border: 1px white solid;*/
+ 
+}
+.s1 h3{
+    font-size: 60px;
+    display: flex;
+    /*border: 1px white solid;*/
+    justify-content: flex-end;
+    width:1000px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.s1 h4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 1px;
+}
+.s2{
+  
+    display: flex;
+    justify-content: space-around;
+}
+.s2 p{
+    border: 1px white solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px white, -7px -4px 4px white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Bahnschrift,'Berlin Sans FB Demi','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    background-color: goldenrod;
+
+}
+h2{
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: Bahnschrift,'Berlin Sans FB Demi','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s2 a{
+    text-decoration: none;
+    color: white;
+}
+.s2 a:hover{
+    font-size: 30px;
+}
+.x1,.x2{
+    display: flex;
+    justify-content: space-around;
+}
+.x3{
+    text-align: center;
+}
+form{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    width: 1340px;
+
+
+}
+fieldset{
+    margin-top: 20px;
+    background-color:rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    border-radius: 10px;
+}
+input:focus{
+    background-color: rgb(255, 170, 85);
+}
+textarea:focus{
+    background-color: rgb(255, 170, 85);
+
+}
+footer{
+    width: 1335px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: Bahnschrift,'Berlin Sans FB Demi','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.x5{
+    padding-left: 10px;
+    width: 500px;
+    font-size: 20px;
+}
+.c1a{
+    
+    display: flex;
+}
+.w1{
+    color: goldenrod;
+}
+.fin{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 1340px;
+}
+hr{
+    width: 3px;
+    color: white;
+}
+.s2{
+    margin-bottom: 20px;
+    width: 1340px;
+
+}
+#cantact{
+    margin-top: 20px;
+}
